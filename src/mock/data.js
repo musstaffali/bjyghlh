@@ -2,7 +2,7 @@ import { nanoid } from 'nanoid';
 
 // HEAD DATA
 export const headData = {
-  subject: '', // e.g: 'Name | Developer'
+  subject: 'Mustafa Mustafa | Full Stack', // e.g: 'Name | Developer'
   lang: '', // e.g: en, es, fr, jp
   description: '', // e.g: Welcome to my website
 };
@@ -11,7 +11,7 @@ export const headData = {
 export const heroData = {
   subject: '',
   name: 'Mustafa Mustafa',
-  subsubject: 'http://localhost:8000/',
+  subsubject: 'FullStack',
   cta: '',
 };
 
@@ -101,5 +101,5 @@ export const footerData = {
 
 // Github start/fork buttons
 export const githubButtons = {
-  isEnabled: false, // set to false to disable the GitHub stars/fork buttons
+  isEnabled: true, // set to false to disable the GitHub stars/fork buttons
 };
